@@ -1,0 +1,23 @@
+{
+  "name": "minimal_evm_wallet",
+  "version": "1.0.0",
+  "description": "Simple EVM wallet with minimal thrid-party dependencies",
+  "main": "wallet.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@noble/hashes": "1.8.0",
+    "@scure/bip32": "1.7.0",
+    "rlp": "3.0.0",
+    "secp256k1": "5.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.30",
+    "@types/secp256k1": "4.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
